@@ -14,7 +14,7 @@ pipeline{
         					sudo docker rm -f selfreflection
     					fi
     					# run your container
-				sudo docker run -d --name selfreflection -p 8888:8080 selfreflection
+				sudo docker run -d --name selfreflection -p 8888:8888 selfreflection
 				fi'''
                         }
                 }
