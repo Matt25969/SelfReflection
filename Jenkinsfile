@@ -10,6 +10,7 @@ pipeline{
                         steps{
                               sh label: '', script: '''if [ ! "$(sudo docker ps -q -f name=selfreflection)" ]; then
        				 		# cleanup
+						whoami
         					sudo docker rm -f selfreflection
 				fi
 				sudo docker run -d --name selfreflection -p 8888:8888 selfreflection
