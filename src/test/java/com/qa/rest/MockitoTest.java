@@ -41,7 +41,7 @@ public class MockitoTest {
 			"SMART Response", "SMART Response");
 	private static final Feedback MOCK_FEEDBACK_2 = new Feedback(2L, "Dev", "SMART Response", "SMART Response",
 			"SMART Response", "SMART Response");
-	private static final String MOCK_DELETE_RESPONSE = "Feedback Successfully deledted";
+	private static final String MOCK_DELETE_RESPONSE = "Feedback Successfully deleted";
 
 	@Test
 	public void getFeedbackTest() {
