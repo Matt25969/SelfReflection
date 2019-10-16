@@ -31,6 +31,11 @@ public class FeedbackController {
 
 	private RestTemplate restTemplate;
 
+	@RequestMapping("/testEndPoint")
+	public String testEndPoint() {
+		return "Test Text";
+	}
+
 	@RequestMapping("/getAllFeedback")
 	public List<Feedback> getAllFeedback() {
 
