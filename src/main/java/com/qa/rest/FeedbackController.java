@@ -33,7 +33,7 @@ public class FeedbackController {
 
 	@RequestMapping("/testEndPoint")
 	public String testEndPoint() {
-		return "Test Text2";
+		return "Test Text";
 	}
 
 	@RequestMapping("/getAllFeedback")
