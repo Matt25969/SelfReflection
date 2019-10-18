@@ -61,7 +61,7 @@ public class WebMockTest {
 
 		when(service.findAll()).thenReturn(MOCK_LIST);
 
-		mockMvc.perform(get("/getAllFeedback")).andExpect(content().string(containsString("Matugjht")));
+		mockMvc.perform(get("/getAllFeedback")).andExpect(content().string(containsString("Matt")));
 	}
 
 	private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
